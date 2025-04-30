@@ -1,6 +1,6 @@
 # CameraPath
 
-A `Three.js` module for moving a camera along a predefined GLTF path, with optional support for a separate look-at path.
+A `Three.js` module for moving a camera along a predefined GLTF path, with optional support for a separate look-at path. Designed to streamline the traversal workflow by creating a basic path through a scene in Blender using a nurbs or bezier curve, and outputting in GLTF format into Three.js, allowing for complete camera control and traversal across x,y,z axis. 
 
 ## Installation
 

@@ -6,6 +6,7 @@ A `Three.js` module for moving a camera along a predefined GLTF path, with optio
 
 ```js
 import CameraPath from './modules/CameraPath/CameraPath.js'
+```
 
 ## Usage
 
@@ -41,20 +42,22 @@ const cameraPathSettings = {
   },
 
   dracoDecoderPath: './draco/gltf/',
-
 }
+```
 
 ### Initialization
 
 ```js
 const cameraPath = new CameraPath(scene, camera, cameraPathSettings)
-
+```
 
 ### Traversal
 
 ```js
 cameraPath.traversePath(value, true, false)
+```
 
 - **value**: A number between `0` and `1` representing normalized progress along the path  
 - **interpolate** (`true`): Enables position and rotation smoothing  
-- **clamp** (`false`): If `false`, allows extrapolation beyond the path bounds  
+- **clamp** (`false`): If `false`, allows extrapolation beyond the path bounds
+
